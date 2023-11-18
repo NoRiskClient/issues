@@ -2,6 +2,7 @@ name: Bug Report
 description: File a bug report
 title: "[Bug]: "
 labels: ["bug"]
+projects: ["NRC Issue & Todo tracker"]
 assignees:
   - timlohrer
 body:
@@ -52,6 +53,7 @@ body:
     attributes:
       label: Version (for launcher bugs)
       description: What launcher version are you using?
+      placeholder: ex. 0.2.9
     validations:
       required: false
   - type: textarea
