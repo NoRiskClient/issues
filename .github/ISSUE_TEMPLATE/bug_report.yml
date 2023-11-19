@@ -2,7 +2,7 @@ name: Bug Report
 description: File a bug report
 title: "[Bug]: "
 labels: ["bug"]
-projects: ["issues/2"]
+projects: ["github/2"]
 assignees:
   - timlohrer
 body:
@@ -35,6 +35,7 @@ body:
         - Client
         - Launcher
         - Shop
+        - Backend
     validations:
       required: true
   - type: dropdown
