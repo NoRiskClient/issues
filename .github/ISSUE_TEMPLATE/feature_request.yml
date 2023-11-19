@@ -25,7 +25,7 @@ body:
       description: Explain your request in detail.
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: linked-issue
     attributes:
       label: Linked issues
