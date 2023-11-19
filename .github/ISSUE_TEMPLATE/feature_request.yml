@@ -42,6 +42,7 @@ body:
         - Client
         - Launcher
         - Shop
+        - Backend
     validations:
       required: true
   - type: dropdown
