@@ -2,7 +2,7 @@ name: Bug Report
 description: File a bug report
 title: "[Bug]: "
 labels: ["bug"]
-projects: ["github/2"]
+projects: ["issues/2"]
 assignees:
   - timlohrer
 body:
