@@ -44,6 +44,7 @@ body:
       label: What platform are you seeing the problem on?
       multiple: true
       options:
+        - Not a launcher related problem
         - Windows
         - MacOS
         - Linux
