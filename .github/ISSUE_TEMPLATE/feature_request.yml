@@ -3,8 +3,6 @@ description: Submit a feature request
 title: "[FEATURE-REQUEST]: "
 projects: ["github/2"]
 labels: ["feature request"]
-assignees:
-  - timlohrer
 body:
   - type: markdown
     attributes:
