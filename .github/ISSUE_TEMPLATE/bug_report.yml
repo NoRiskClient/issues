@@ -16,7 +16,7 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: true
-  - type: textare
+  - type: textarea
     id: reproduction-steps
     attributes:
       label: How to reproduce ?
