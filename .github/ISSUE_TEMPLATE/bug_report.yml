@@ -16,6 +16,12 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: true
+  - type: textare
+    id: reproduction-steps
+    attributes:
+      label: How to reproduce ?
+      description: How did you got the error ?
+      placeholder: Step by step description how the error occurred
   - type: dropdown
     id: services
     attributes:
