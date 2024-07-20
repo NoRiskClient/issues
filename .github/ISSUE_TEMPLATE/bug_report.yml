@@ -54,12 +54,14 @@ body:
       placeholder: ex. 0.2.9
     validations:
       required: false
-  - type: input
+  - type: dropdown
     id: branch
     attributes:
       label: Branch (for client bugs)
       description: What branch are you using?
-      placeholder: ex. 1.21 Version
+      options:
+       - 1.20.1
+       - 1.21
     validations:
       required: false
   - type: textarea
