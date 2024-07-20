@@ -54,6 +54,14 @@ body:
       placeholder: ex. 0.2.9
     validations:
       required: false
+  - type: input
+    id: branch
+    attributes:
+      label: Branch (for client bugs)
+      description: What branch are you using?
+      placeholder: ex. 1.21 Version
+    validations:
+      required: false
   - type: textarea
     id: logs
     attributes:
