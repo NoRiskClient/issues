@@ -12,7 +12,7 @@ body:
     id: reproduction-steps
     attributes:
       label: How to reproduce ?
-      description: How did you got the error ?
+      description: How did you get the error ?
       placeholder: Step by step description how the error occurred
   - type: dropdown
     id: services
