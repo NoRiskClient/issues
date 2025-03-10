@@ -2,7 +2,7 @@ name: Feature request
 description: Submit a feature request
 title: "[FEATURE-REQUEST]: "
 projects: ["github/2"]
-labels: ["feature request"]
+type: "Feature"
 body:
   - type: markdown
     attributes:
