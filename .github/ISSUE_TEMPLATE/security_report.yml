@@ -1,7 +1,7 @@
 name: Security Report
 description: File a security report
 title: "[SECURITY-ISSUE]: "
-labels: ["security"]
+type: "Security"
 projects: ["github/2"]
 body:
   - type: markdown
