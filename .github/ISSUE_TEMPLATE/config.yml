@@ -1,1 +1,5 @@
 blank_issues_enabled: false
+contact_links:
+  - name: NoRisk Client Discord
+    url: https://discord.norisk.gg
+    about: Join our Discord server to discuss issues, features, and more.

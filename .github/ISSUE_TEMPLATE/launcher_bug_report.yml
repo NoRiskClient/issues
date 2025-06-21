@@ -1,14 +1,14 @@
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
+name: Launcher Bug Report
+description: File a bug report for the Launcher.
+title: "[LAUNCHER-BUG]: "
 type: "Bug"
 labels: ["needs validation"]
-projects: ["github/2"]
+projects: ["NoRiskClient/10", "NoRiskClient/2"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thanks for taking the time to fill out this bug report for the **Launcher**!
   - type: textarea
     id: reproduction-steps
     attributes:
@@ -16,24 +16,11 @@ body:
       description: How did you get the error ?
       placeholder: Step by step description how the error occurred
   - type: dropdown
-    id: services
-    attributes:
-      label: Where is this happening?
-      multiple: true
-      options:
-        - Client
-        - Launcher
-        - Shop
-        - Backend
-    validations:
-      required: true
-  - type: dropdown
     id: platform
     attributes:
-      label: What platform are you seeing the problem on? (for launcher bugs)
+      label: What platform are you seeing the problem on?
       multiple: true
       options:
-        - Not a launcher bug
         - Windows
         - MacOS
         - Linux
@@ -44,7 +31,7 @@ body:
     attributes:
       label: Version (for launcher bugs)
       description: What launcher version are you using?
-      placeholder: ex. 0.2.9
+      placeholder: ex. v0.6.2
     validations:
       required: false
   - type: textarea

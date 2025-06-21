@@ -1,0 +1,17 @@
+name: Client Bug Report
+description: File a bug report for the Client.
+title: "[CLIENT-BUG]: "
+type: "Bug"
+labels: ["needs validation"]
+projects: ["NoRiskClient/2", "NoRiskClient/14"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report for the **Client**!
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: How to reproduce ?
+      description: How did you get the error ?
+      placeholder: Step by step description how the error occurred

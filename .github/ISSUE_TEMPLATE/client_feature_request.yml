@@ -1,0 +1,25 @@
+name: Client Feature request
+description: Submit a feature request specifically for the Client.
+title: "[CLIENT-FEATURE]: "
+projects: ["NoRiskClient/2", "NoRiskClient/14"]
+type: "Feature"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to create this feature request for the **Client**!
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: Explain your request in detail.
+    validations:
+      required: true
+  - type: input
+    id: linked-issue
+    attributes:
+      label: Linked issues
+      description: Is this request linked to any existing issue?
+      placeholder: Issue number
+    validations:
+      required: false
