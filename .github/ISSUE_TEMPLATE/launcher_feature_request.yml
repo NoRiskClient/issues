@@ -1,0 +1,36 @@
+name: Launcher Feature Request
+description: Submit a feature request specifically for the Launcher.
+title: "[LAUNCHER-FEATURE]: "
+projects: ["NoRiskClient/10", "NoRiskClient/2"]
+type: "Feature"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to create this feature request for the **Launcher**!
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: Explain your request in detail.
+    validations:
+      required: true
+  - type: input
+    id: linked-issue
+    attributes:
+      label: Linked issues
+      description: Is this request linked to any existing issue?
+      placeholder: Issue number
+    validations:
+      required: false
+  - type: dropdown
+    id: platform
+    attributes:
+      label: What platforms would this Launcher feature affect?
+      multiple: true
+      options:
+        - Windows
+        - MacOS
+        - Linux
+    validations:
+      required: false
