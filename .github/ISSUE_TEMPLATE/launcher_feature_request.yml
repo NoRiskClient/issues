@@ -3,6 +3,7 @@ description: Submit a feature request specifically for the Launcher.
 title: "[LAUNCHER-FEATURE]: "
 projects: ["NoRiskClient/10", "NoRiskClient/2"]
 type: "Feature"
+labels: ["launcher related"]
 body:
   - type: markdown
     attributes:
