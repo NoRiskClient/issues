@@ -2,7 +2,7 @@ name: Launcher Bug Report
 description: File a bug report for the Launcher.
 title: "[LAUNCHER-BUG]: "
 type: "Bug"
-labels: ["needs validation"]
+labels: ["needs validation", "launcher related"]
 projects: ["NoRiskClient/10", "NoRiskClient/2"]
 body:
   - type: markdown
