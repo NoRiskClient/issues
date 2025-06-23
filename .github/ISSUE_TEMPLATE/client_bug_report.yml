@@ -2,7 +2,7 @@ name: Client Bug Report
 description: File a bug report for the Client.
 title: "[CLIENT-BUG]: "
 type: "Bug"
-labels: ["needs validation"]
+labels: ["client", "needs validation"]
 projects: ["NoRiskClient/2"]
 body:
   - type: markdown

@@ -2,6 +2,7 @@ name: Client Feature request
 description: Submit a feature request specifically for the Client.
 title: "[CLIENT-FEATURE]: "
 projects: ["NoRiskClient/2"]
+labels: ["client"]
 type: "Feature"
 body:
   - type: markdown
