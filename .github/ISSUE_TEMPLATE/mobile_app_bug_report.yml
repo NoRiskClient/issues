@@ -4,6 +4,7 @@ title: "[MOBILE-APP-BUG]: "
 type: "Bug"
 labels: ["mobile app", "needs validation"]
 projects: ["NoRiskClient/2"]
+assignees: TimLohrer
 body:
   - type: markdown
     attributes:
@@ -12,7 +13,7 @@ body:
   - type: dropdown
     id: os
     attributes:
-      label: What platform are you seeing the problem on?
+      label: What platform are you seeing the problem on? (can be both)
       multiple: true
       options:
         - iOS
