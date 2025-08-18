@@ -1,0 +1,37 @@
+name: Mobile App Feature Request
+description: Create a feature request for the mobile App.
+title: "[MOBILE-APP-FEATURE]: "
+type: "Feature"
+labels: ["mobile app"]
+projects: ["NoRiskClient/2"]
+assignees: TimLohrer
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this feature request for the **Mobile App**!
+  - type: dropdown
+    id: os
+    attributes:
+      label: What platform would this feature affect? (can be both)
+      multiple: true
+      options:
+        - iOS
+        - android
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: Explain your request in detail.
+    validations:
+      required: true
+  - type: input
+    id: linked-issue
+    attributes:
+      label: Linked issues
+      description: Is this request linked to any existing issue?
+      placeholder: Issue number
+    validations:
+      required: false
