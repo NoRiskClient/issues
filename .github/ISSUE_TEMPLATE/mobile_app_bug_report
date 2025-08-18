@@ -1,0 +1,35 @@
+name: Mobile App Bug Report
+description: File a bug report for the mobile App.
+title: "[MOBILE-APP-BUG]: "
+type: "Bug"
+labels: ["mobile app", "needs validation"]
+projects: ["NoRiskClient/2"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report for the **Mobile App**!
+  - type: dropdown
+    id: os
+    attributes:
+      label: What platform are you seeing the problem on?
+      multiple: true
+      options:
+        - iOS
+        - android
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: What app version are you using? (check in settings)
+      placeholder: ex. 2.0.5
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: How to reproduce ?
+      description: How did you get the error ?
+      placeholder: Step by step description how the error occurred
