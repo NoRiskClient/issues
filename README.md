@@ -7,15 +7,17 @@ Welcome to the NoRisk Client Issues repository! This repository contains issue t
 We have several issue templates to help you report problems or suggest improvements:
 
 ### Bug Reports
-- [Client Bug Report](.github/ISSUE_TEMPLATE/client_bug_report.yml) - Report issues with the NoRisk Client
-- [Launcher Bug Report](.github/ISSUE_TEMPLATE/launcher_bug_report.yml) - Report issues with the NoRisk Client Launcher
+- [Client Bug Report](https://github.com/NoRiskClient/issues/issues/new?template=client_bug_report.yml) - Report issues with the NoRisk Client
+- [Launcher Bug Report](https://github.com/NoRiskClient/issues/issues/new?template=launcher_bug_report.yml) - Report issues with the NoRisk Client Launcher
+- [Mobile App Bug Report](https://github.com/NoRiskClient/issues/issues/new?template=mobile_app_bug_report.yml) - Report issues with the NoRisk Client Mobile App
 
 ### Feature Requests
-- [Client Feature Request](.github/ISSUE_TEMPLATE/client_feature_request.yml) - Suggest improvements for the NoRisk Client
-- [Launcher Feature Request](.github/ISSUE_TEMPLATE/launcher_feature_request.yml) - Suggest improvements for the NoRisk Client Launcher
+- [Client Feature Request](https://github.com/NoRiskClient/issues/issues/new?template=client_feature_request.yml) - Suggest improvements for the NoRisk Client
+- [Launcher Feature Request](https://github.com/NoRiskClient/issues/issues/new?template=launcher_feature_request.yml) - Suggest improvements for the NoRisk Client Launcher
+- [Mobile App Feature Request](https://github.com/NoRiskClient/issues/issues/new?template=mobile_app_feature_request.yml) - Suggest improvements for the NoRisk Client Mobile App
 
 ### Security Reports
-- [Security Report](.github/ISSUE_TEMPLATE/security_report.yml) - Report security vulnerabilities
+- [Security Report](https://github.com/NoRiskClient/issues/issues/new?template=security_report.yml) - Report security vulnerabilities
 
 For more information on reporting security vulnerabilities, please see our [Security Policy](SECURITY.md).
 
