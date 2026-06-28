@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
+  - name: NoRisk Issue Tracker
+    url: https://norisk.gg/issues
+    about: Please report bugs and feature requests on our issue tracker.
   - name: NoRisk Client Discord
     url: https://discord.norisk.gg
     about: Join our Discord server to discuss issues, features, and more.
